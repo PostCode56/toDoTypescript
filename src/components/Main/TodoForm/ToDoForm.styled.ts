@@ -33,6 +33,7 @@ export const Styled_input = styled.input`
 `
 export const Styled_button = styled.button`
   width: 15%;
+  padding: 0 5px;
   min-width: 80px;
   margin-left: 5px;
   height: 40px;

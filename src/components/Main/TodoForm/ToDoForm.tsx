@@ -22,9 +22,6 @@ const ToDoForm: FC = () => {
             setInputValue("");
         }
     }
-    useEffect(() => {
-        localStorage.setItem("todos", JSON.stringify(todos))
-    }, [])
     const removeToDO = (id: number): void => {
         setTodos(todos.filter(todo => todo.id !== id))
     }
